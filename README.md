@@ -15,4 +15,5 @@ En caso de tener mac usar : brew install mpi4py
 Este comanddo se usa dado que estamos usando MPI; agrego documentacion :
 
 https://mpi4py.readthedocs.io/en/stable/intro.html#what-is-mpi
+
 https://github.com/luca-s/mpi-master-slave
