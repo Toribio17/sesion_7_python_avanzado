@@ -1,0 +1,59 @@
+Son muchas las areas de investigacion, y sobre todo, programas de aplicaci6n real donde
+la capacidad de cémputo de un Unico procesador no es suficiente. Un ejemplo lo encon-
+tramos en el campo de la bioinformatica y, en particular, en la rama de gendémica, donde
+los secuenciadores de genomas son capaces de producir millones de secuencias en un dia.
+Estos millones de secuencias se deben procesar y evaluar con tal de formar el genoma del
+ser vivo que se haya analizado. Este procesar y evaluar requieren un tiempo de cémputo
+y capacidades de memoria muy grandes, sdélo al alcance de computadores con mas de un
+core y una capacidad de almancenamiento significativa. Otros 4mbitos donde nos pode-
+mos encontrar con estas necesidades de c6mputo son en el disefio de farmacos, estudios
+
+del cosmo, deteccion de petrdéleo, simulaciones de aeronaves, etc.
+
+Durante afios, el aumento de la frecuencia de los procesadores habia sido la via de au-
+mentar el rendimiento de las aplicaciones, de una forma transparente al programador. Sin
+embargo, aunque la frecuencia de los uniprocesadores ha ido aumentando, se ha observa-
+do que este aumento no se puede mantener indefinidamente. No podemos hacer mover los
+electrones y los protones a mayor velocidad que la de la luz. Por otra parte, este aumento
+de frecuencia conlleva un problema de disipacién de calor, haciendo que los uniprocesa-
+dores deban incorporar mecanismos de refrigeraci6n de Ultima generacién. Finalmente, la
+mejora de la tecnologia y por consiguiente, la consecuente reducci6n del tamajfio del tran-
+sistor, nos permiten incorporar mas componentes al uniprocesador sin aumentar su area
+(mas memoria, mas pipelines, etc.). Sin embargo, esta disminuci6n del tamafio del transis-
+tor para incorporar mas mejoras y capacidades al uniprocesador tampoco es una solucién
+que se pueda llevar al infinito (principio de incerteza de Heisenberg). Estos problemas
+tecnolégicos contribuyeron a que, para poder tratar con problemas tan grandes evitando
+las limitaciones tecnoldgicas, los arquitectos de computadores comenzaran a centrar sus
+
+esfuerzos en arquitecturas paralelas.
+
+El soporte hardware para procesar en paralelo se puede introducir en varios niveles; desde
+el mas bajo nivel, el uniprocesador, al mas alto nivel con las grids de multiprocesadores
+oO multicomputadores, donde la red de interconexi6n es Internet. Estos niveles abarcan el
+paralelismo a nivel de instrucci6n (ILP), a nivel de datos (DLP) y a nivel de threads
+
+(TLP).
+
+Principio de incerteza de
+Heisenberg
+
+“The position and momentum
+of a particle cannot be
+simultaneously measured
+with arbitrarily high precision.
+There is a minimum for the
+product of the uncertainties
+of these two measurements.
+There is likewise a minimum
+for the product of the
+uncertainties of the energy
+and time.”
+
+Niveles de paralelismo
+
+ILP: /nstruction Level
+Parallelism.
+
+DLP: Data Level Parallelism.
+TLP: Thread Level
+Parallelism

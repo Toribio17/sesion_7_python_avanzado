@@ -1,0 +1,6 @@
+mpi4py
+mpi_master_slave
+pathlib
+pdf2image
+pytesseract
+multiprocess
