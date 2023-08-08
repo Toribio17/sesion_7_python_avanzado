@@ -8,4 +8,11 @@ Para ejecutar el siguiente codigo :
 5) Ejecutar el sh : ./env_variables.sh
 
 Nota : 
-Este proyecto utilizala mpi4py, estuve investigando y en Windows no es necesario instalar algo extra; en caso de tener mac usar : brew install mpi4py
+1) Este proyecto utilizala mpi4py, estuve investigando y en Windows no es necesario instalar algo extra;
+En caso de tener mac usar : brew install mpi4py
+
+2) Recordar que para ejcutar este programa se urtiliza el comando : mpiexec -n 3 python3 master.py,
+Este comanddo se usa dado que estamos usando MPI; agrego documentacion :
+
+https://mpi4py.readthedocs.io/en/stable/intro.html#what-is-mpi
+https://github.com/luca-s/mpi-master-slave
